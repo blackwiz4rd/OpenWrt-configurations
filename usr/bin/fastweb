@@ -1,0 +1,5 @@
+#!/bin/sh
+cp /etc/config/fastweb/wireless /etc/config/wireless
+cp /etc/config/fastweb/network /etc/config/network
+uci commit network; uci commit wireless; wifi
+

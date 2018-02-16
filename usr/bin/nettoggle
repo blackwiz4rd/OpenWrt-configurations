@@ -1,0 +1,10 @@
+#!/bin/sh
+#1 = vodafone 2 = fastweb
+value=`cat /etc/config/config.txt`
+if [ "$value" = "1" ]; then
+	fastweb
+	echo 2 > /etc/config/config.txt
+else
+	vodafone
+	echo 1 > /etc/config/config.txt
+fi

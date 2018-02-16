@@ -1,0 +1,4 @@
+#!/bin/sh
+cp /etc/config/vodafone/wireless wireless
+cp /etc/config/vodafone/network network
+uci commit wireless; uci commit network; wifi
