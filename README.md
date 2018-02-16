@@ -6,7 +6,7 @@ These configurations can be used in OpenWrt to extend two types of network:
 Versione in italiano
 ------------
 Guide seguite:<br />
-`https://wiki.openwrt.org/doc/howto/hardware.button
+`https://wiki.openwrt.org/doc/howto/hardware.button <br />
 https://wiki.openwrt.org/doc/recipes/bridgedclient`<br />
 Per le configurazioni riguardanti Fastweb fare riferimento a `etc/config/fastweb`<br />
 Per le configurazioni riguardanti Vodafone-WiFi fare riferimento a `etc/config/vodafone`<br />
@@ -18,10 +18,10 @@ In `usr/bin` troverete degli script che utilizzo per fare lo switch da un wifi a
 
 Per la gestione dei pulsanti (per Negear EX2700) fare riferimento a `hotplug.d/button` e `etc/config/system`<br />
 
-Versione in italiano
+English version
 ------------
 Guides followed:<br />
-`https://wiki.openwrt.org/doc/howto/hardware.button
+`https://wiki.openwrt.org/doc/howto/hardware.button <br />
 https://wiki.openwrt.org/doc/recipes/bridgedclient`<br />
 For fastweb configurations refer to `etc/config/fastweb`<br />
 For vodafone configurations refer to `etc/config/vodafone`<br />
