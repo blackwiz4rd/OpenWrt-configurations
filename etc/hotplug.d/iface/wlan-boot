@@ -1,0 +1,5 @@
+cat << "EOF" > /etc/hotplug.d/iface/wlan-onboot
+[ "${ACTION}" = "ifup" ] && [ "${INTERFACE}" = "wlan0" ] && {
+    logger -t hotplug "Device: ${DEVICE} / Action: ${ACTION}"
+} 
+EOF
